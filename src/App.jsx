@@ -3,6 +3,7 @@
 //import Home from './Components/Home';
 
 import { Outlet } from "react-router-dom"
+import Navbar from "./Components/Navbar"
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
 
   return (
     <>
-  <h2>this is app</h2>
+  <Navbar></Navbar>
   <Outlet></Outlet>
     </>
   )
